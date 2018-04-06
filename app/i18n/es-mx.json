@@ -1,0 +1,9 @@
+{
+  "number": {
+    "format": {
+      "unit": "MXN"
+    }
+  },
+  "professional": "profesional",
+  "owner": "propietario"
+}
