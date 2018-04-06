@@ -10,8 +10,7 @@ const LocaleES_PE = require('./i18n/es-pe.json');
 
 I18n.fallbacks = true;
 I18n.defaultLocale = 'es';
-I18n.locale = I18n.currentLocale()
-// +'-us'; optional use 
+I18n.locale = I18n.currentLocale(); // add country optionality
 I18n.translations["es"] = LocaleES;
 I18n.translations["en"] = LocaleEN;
 I18n.translations["en-us"] = LocaleEN_US; // optional use
